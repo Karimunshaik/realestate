@@ -1,0 +1,41 @@
+body {
+    font-family: BOLD;
+}
+
+header {
+    background-color: black;
+    color: lightblue;
+    text-align:center;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.property-list {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.property {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.property img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
